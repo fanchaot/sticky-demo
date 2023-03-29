@@ -1,0 +1,37 @@
+.header {
+  height: 200px;
+  width: 100%;
+}
+
+.header-scroll {
+  display: flex;
+  flex-direction: column;
+  min-height: 150vh;
+}
+
+.header-designer-wrapper {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  /* padding: 80px 40px 2vh; */
+}
+.header-designer {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100vh - 160px);
+  border-radius: 10px;
+  box-shadow: 0 10px 30px #0003;
+  background-color: #fff;
+  will-change: transform;
+  transform-style: preserve-3d;
+}
+
+.bbb {
+  width: 100%;
+  height: 300vh;
+}
